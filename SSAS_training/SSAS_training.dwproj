@@ -6,22 +6,16 @@
     <Name>SSAS_training.database</Name>
     <FullPath>SSAS_training.database</FullPath>
   </Database>
-  <Dimensions>
-    <ProjectItem>
-      <Name>Dim Customer.dim</Name>
-      <FullPath>Dim Customer.dim</FullPath>
-    </ProjectItem>
-  </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Adventureworks DW2016CTP3.ds</Name>
-      <FullPath>Adventureworks DW2016CTP3.ds</FullPath>
+      <Name>AdventureWorksDW2016DS.ds</Name>
+      <FullPath>AdventureWorksDW2016DS.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Adventureworks DW2016CTP3.dsv</Name>
-      <FullPath>Adventureworks DW2016CTP3.dsv</FullPath>
+      <Name>AdventureWorksDW2016DSV.dsv</Name>
+      <FullPath>AdventureWorksDW2016DSV.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -32,7 +26,7 @@
           <ConfigurationSetting>
             <Id>Adventureworks DW2016CTP3</Id>
             <Name>Adventureworks DW2016CTP3</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-9HFFO7R;Integrated Security=SSPI;Initial Catalog=AdventureworksDW2016CTP3</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-9HFFO7R;Integrated Security=SSPI;Initial Catalog=AdventureworksDW2016</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
