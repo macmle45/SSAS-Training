@@ -6,6 +6,48 @@
     <Name>SSAS_training.database</Name>
     <FullPath>SSAS_training.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Sales_MAD.cube</Name>
+      <FullPath>Sales_MAD.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sales_MAD.partitions</Name>
+          <FullPath>Sales_MAD.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Promotion.dim</Name>
+      <FullPath>Dim Promotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Sales Territory.dim</Name>
+      <FullPath>Dim Sales Territory.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Currency.dim</Name>
+      <FullPath>Dim Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Internet Sales.dim</Name>
+      <FullPath>Fact Internet Sales.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>AdventureWorksDW2016DS.ds</Name>
