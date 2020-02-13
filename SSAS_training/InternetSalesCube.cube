@@ -373,6 +373,57 @@
         <Attribute dwd:design-time-name="6e7c2e24-d95b-4799-b400-fa753c270f41">
           <AttributeID>Product Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="e0070762-008a-4e02-b504-e5d4d883461b">
+          <AttributeID>Standard Cost</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81c27466-50b9-4e31-b61d-51fe3de8dd4c">
+          <AttributeID>Color</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="49e47a79-2f79-4dd3-bbe1-571dacad0c3c">
+          <AttributeID>Safety Stock Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a8f1f30f-9024-4bff-8219-ad7739f345a1">
+          <AttributeID>Reorder Point</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf232179-35b9-4e7b-bb90-986de4d84f4f">
+          <AttributeID>List Price</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c55bb008-3d01-47a5-9895-588bcda3a4a0">
+          <AttributeID>Size</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e83bc7de-3033-48fe-9663-ca78fefb81ed">
+          <AttributeID>Size Range</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cafd349d-e9ae-45f9-a9d8-7b338f2dd09c">
+          <AttributeID>Weight</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b0c5410-aa50-4cd5-a218-a17ab44351ff">
+          <AttributeID>Days To Manufacture</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2621891-9bd0-4ac7-afd2-8ae4af6fc435">
+          <AttributeID>Product Line</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5682f42-b599-4a85-9bb9-5fafb5fda9a7">
+          <AttributeID>Dealer Price</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f40d02c6-f431-4dca-8fe0-5f4f6b45ab02">
+          <AttributeID>Class</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe77a5d7-23a6-4f83-a99a-dd363fa086cd">
+          <AttributeID>Style</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ae86111-b1dc-42c1-b4a6-e7c724daf2df">
+          <AttributeID>Model Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a98e78a-0b53-4179-8496-2e25cfbfaf35">
+          <AttributeID>Start Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="014d01bc-20f1-48c9-8d35-dbb79b856424">
+          <AttributeID>End Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02d88cb1-c6fa-4ce6-8cac-3886098225f6">
+          <AttributeID>Status</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
