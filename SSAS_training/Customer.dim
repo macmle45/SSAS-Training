@@ -464,15 +464,31 @@
       <ID>City</ID>
       <Name>City</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0072314e-2ffa-4299-a85f-d10b5e612c9f">
+        <KeyColumn dwd:design-time-name="a0eeda87-61d7-4e1c-89b9-0c34cd7042af">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6eef1c78-a527-4131-8df2-4d869d165281">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c55712a1-b553-41ff-b40b-08caea854aad">
             <TableID>dbo_DimGeography</TableID>
             <ColumnID>City</ColumnID>
           </Source>
         </KeyColumn>
+        <KeyColumn dwd:design-time-name="4c236fb9-e795-4774-b6c3-4f0b4404b137">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77828bbd-93a3-4c77-b7c5-82c89c7d66ae">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>StateProvinceName</ColumnID>
+          </Source>
+        </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="9788df91-1200-4a48-9cdb-9d7d2d6fd34d">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="be91fe90-7f42-43e8-ad87-dcfc66d8ac14">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>City</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
