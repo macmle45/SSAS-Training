@@ -504,11 +504,12 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <AttributeAllMemberName>All Products</AttributeAllMemberName>
   <Hierarchies>
     <Hierarchy dwd:design-time-name="370ada67-a4da-4078-8e0f-6365e8a3a0d6">
       <ID>Hierarchy</ID>
       <Name>Product Model Lines</Name>
-      <AllMemberName>Products</AllMemberName>
+      <AllMemberName>All Products</AllMemberName>
       <Levels>
         <Level dwd:design-time-name="52c409c9-60b8-4c61-be19-240d0419ee31">
           <ID>Product Line</ID>
