@@ -6,6 +6,12 @@
     <Name>SSAS_training.database</Name>
     <FullPath>SSAS_training.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>AdventureWorksDW2016DS.ds</Name>
