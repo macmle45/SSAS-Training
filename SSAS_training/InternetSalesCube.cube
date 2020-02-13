@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16224" scrolltop="-895" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="50" x="24130" y="11240" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16224" scrolltop="-895" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="50" x="25823" y="11240" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
             </font>
@@ -446,6 +446,7 @@
               <ColumnID>OrderQuantity</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,#.</FormatString>
         </Measure>
         <Measure dwd:design-time-name="ccdd82dc-38fa-4d5c-a1c1-01e26dcb700f">
           <ID>Unit Price</ID>
@@ -457,6 +458,7 @@
               <ColumnID>UnitPrice</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="c00c7fd4-45a9-4646-a9d6-e56f8ba96aff">
           <ID>Extended Amount</ID>
@@ -468,10 +470,11 @@
               <ColumnID>ExtendedAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="50e1b75b-3f93-4a0b-af85-251307b88120">
           <ID>Unit Price Discount Pct</ID>
-          <Name>Unit Price Discount Pct</Name>
+          <Name>Unit Price Discount Percentage</Name>
           <Source dwd:design-time-name="26270864-fab7-4140-9462-ac90958c7a92">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="5614583d-e928-4ba0-acaa-8580d4c2ed75">
@@ -479,6 +482,7 @@
               <ColumnID>UnitPriceDiscountPct</ColumnID>
             </Source>
           </Source>
+          <FormatString>Percent</FormatString>
         </Measure>
         <Measure dwd:design-time-name="b3fa73bf-2800-4101-9255-9d2de9c56b81">
           <ID>Discount Amount</ID>
@@ -490,6 +494,7 @@
               <ColumnID>DiscountAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="053549a2-1736-4c7e-820c-c29ce597fb93">
           <ID>Product Standard Cost</ID>
@@ -501,6 +506,7 @@
               <ColumnID>ProductStandardCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="8fd19da5-c275-42a5-bc67-3dd4d7add5b6">
           <ID>Total Product Cost</ID>
@@ -512,6 +518,7 @@
               <ColumnID>TotalProductCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="3c196064-3a61-4197-a5ad-baa5a9056f6b">
           <ID>Sales Amount</ID>
@@ -523,10 +530,11 @@
               <ColumnID>SalesAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="28c03645-7852-42de-a37d-cf77bc5c92f8">
           <ID>Tax Amt</ID>
-          <Name>Tax Amt</Name>
+          <Name>Tax Amount</Name>
           <Source dwd:design-time-name="955a4e52-8f45-4ae7-b19e-0cecdfdbb00e">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="54802959-09f4-4c83-a8a0-3b5157966e25">
@@ -534,6 +542,7 @@
               <ColumnID>TaxAmt</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="5b0f8eed-e887-40f5-b81d-527822ab89ef">
           <ID>Freight</ID>
@@ -545,6 +554,7 @@
               <ColumnID>Freight</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="b65ad262-c675-46c2-89ef-6112abde28ef">
           <ID>Internet Sales Count</ID>
