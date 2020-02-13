@@ -386,6 +386,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="FullName" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE  &#xD;&#xA;   WHEN MiddleName IS NULL THEN  &#xD;&#xA;   FirstName + ' ' + LastName  &#xD;&#xA;   ELSE  &#xD;&#xA;   FirstName + ' ' + MiddleName + ' ' + LastName  &#xD;&#xA;END" msprop:IsLogical="True" msprop:design-time-name="c5f4cd93-52e5-4c32-85f8-64805649fad1" msprop:DbColumnName="FullName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="152" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
