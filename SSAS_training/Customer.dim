@@ -497,15 +497,31 @@
       <ID>State Province Name</ID>
       <Name>State-Province</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1d7f693b-182e-403f-935e-ac77db4c8499">
+        <KeyColumn dwd:design-time-name="78e5ab1e-95b1-45fb-9fa3-2fe937945451">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf491820-91c6-4bc1-84c7-ea1de0a9b410">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a022ba2d-6075-4d26-b9e0-c4e7da67e28f">
             <TableID>dbo_DimGeography</TableID>
             <ColumnID>StateProvinceName</ColumnID>
           </Source>
         </KeyColumn>
+        <KeyColumn dwd:design-time-name="2d244e40-796e-466e-96a0-97a556602003">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="271735db-6902-4181-8716-cecdb00ad188">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>EnglishCountryRegionName</ColumnID>
+          </Source>
+        </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="b28556d7-9059-4ec3-a5d6-e880c78b95a3">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="abde11bc-ca43-4bd1-963a-4106ac58fcf8">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>StateProvinceName</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
