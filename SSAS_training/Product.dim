@@ -68,7 +68,7 @@
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
       <Value>
-        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="27" xmlns="">
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
           <Shapes NodeWidth="187">
             <Shape Id="Product Key" Expanded="true">
               <Attributes>
@@ -79,8 +79,6 @@
                 <Attribute Id="Dealer Price" />
                 <Attribute Id="End Date" />
                 <Attribute Id="List Price" />
-                <Attribute Id="Model Name" />
-                <Attribute Id="Product Line" />
                 <Attribute Id="Reorder Point" />
                 <Attribute Id="Safety Stock Level" />
                 <Attribute Id="Size" />
@@ -92,6 +90,18 @@
                 <Attribute Id="Weight" />
               </Attributes>
               <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Model Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Model Name" />
+              </Attributes>
+              <Position x="258" y="20" />
+            </Shape>
+            <Shape Id="Product Line" Expanded="false">
+              <Attributes>
+                <Attribute Id="Product Line" />
+              </Attributes>
+              <Position x="497" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -167,10 +177,6 @@
         <AttributeRelationship dwd:design-time-name="192a6d16-eba4-40a1-8cb7-58e4207dddae">
           <AttributeID>Days To Manufacture</AttributeID>
           <Name>Days To Manufacture</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9a68edf3-da45-4659-be9c-0f73fea10d27">
-          <AttributeID>Product Line</AttributeID>
-          <Name>Product Line</Name>
         </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="63a35ca2-bae4-4205-8c4f-d044f821e533">
           <AttributeID>Dealer Price</AttributeID>
@@ -439,6 +445,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3d5f560f-52f7-4064-8782-9e365d0ddfd4">
+          <AttributeID>Product Line</AttributeID>
+          <Name>Product Line</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
