@@ -6,10 +6,30 @@
     <Name>SSAS_training.database</Name>
     <FullPath>SSAS_training.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>InternetSalesCube.cube</Name>
+      <FullPath>InternetSalesCube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>InternetSalesCube.partitions</Name>
+          <FullPath>InternetSalesCube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Date.dim</Name>
       <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
