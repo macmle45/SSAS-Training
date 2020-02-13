@@ -314,6 +314,11 @@
           <AttributeID>Postal Code</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5030e5d8-9fd7-4710-898e-890d13f288f7">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="7242ea53-e99b-4bbb-834b-ecf41990bc7e">
       <ID>Due Date</ID>
